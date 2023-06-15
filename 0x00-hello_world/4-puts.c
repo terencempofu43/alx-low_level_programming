@@ -2,7 +2,9 @@
 /**
  * main - Entry point
  *
- * Return Always 0 (Success)
+ * Description: A C program that prints with puts
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
