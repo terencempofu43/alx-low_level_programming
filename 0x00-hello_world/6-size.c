@@ -1,18 +1,24 @@
-#include<stdio>
-/*
- * main-Entry point
+#include <stdio.h>
+
+/**
+ * main - Entry point
  *
- * Description: C use of sizeof() function 
+ * Description: using sizeof to print the size of various types.
  *
- * Always Return 0 (Success)
- *
- */
+ * Return: Always 0 (Succesful)
+*/
+
 int main(void)
 {
-	printf("Size of a char: %d byte(s)\n", sizeof(char));
-	printf("Size of an int: %d byte(s)\n", sizeof(int));
-  printf("Size of a long int: %d byte(s)\n", sizeof(long int));
-	printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));	
-	printf("size of a float %d byte(s)\n", sizeof(float));
+
+	/* sizeof evaluates the size of a variable */
+	printf("Size of a char: %lu byte(s)\n", sizeof(char));
+	printf("Size of an int: %lu byte(s)\n", sizeof(int));
+	printf("Size of an double: %lu byte(s)\n", sizeof(double));
+	printf("Size of a long int: %lu byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %lu byte(s)\n", sizeof(float));
+
 	return (0);
+
 }
