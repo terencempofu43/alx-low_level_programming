@@ -2,20 +2,22 @@
 
 /**
  * _memcpy - copies @n bytes from memory @src
- *to @dest
+ * to @dest
  *
- *@n: copy function
+ * @n: copy function
  *
- *@src: bytes form memory area
+ * @src: bytes form memory area
  *
- *Return: a pointer to @dest
+ * return: a pointer to @dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
+
 	unsigned int i;
 
 	for (i = 0; i < n; i++)
-		*(dest + i) =  *(src + i);
+	
+		*(dest + i) = *(src + i);
 
 	return (dest);
 }
