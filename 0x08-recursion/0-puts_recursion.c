@@ -1,11 +1,10 @@
-#include "main"
+#include "main.h"
 /**
- * _puts_recursion - prints a string
- *
- * @*s: string
- * Return: void
+ * _puts_recursion - print a string
+ * @s:string
+ * Return:void
  */
-void _puts_recursion(char *s);
+void _puts_recursion(char *s)
 {
 if (*s)
 {
