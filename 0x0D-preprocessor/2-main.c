@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 /**
- * main -  prints name of the file
+ * main - Entry point
+ * Description:  prints name of the file
  *  it was compiled from
  *
- * Return: Always 0
+ * Return: Always 0(Success)
  */
 
 int main(void)
